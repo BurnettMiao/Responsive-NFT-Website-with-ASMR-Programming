@@ -564,3 +564,34 @@ footer .right p {
     font-size: 13px;
   }
 }
+
+@media screen and (max-width: 475px) {
+  nav a.logo {
+    display: block;
+  }
+
+  nav .links {
+    display: none;
+  }
+
+  .nft-shop .category {
+    flex-wrap: wrap;
+  }
+
+  .nft-shop .nft-list .item {
+    width: 100%;
+  }
+
+  .sellers .item {
+    width: 100%;
+  }
+
+  footer .right .links {
+    flex-wrap: wrap;
+  }
+
+  footer .right .links a {
+    width: 45%;
+    text-align: center;
+  }
+}
